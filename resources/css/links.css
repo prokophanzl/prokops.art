@@ -53,3 +53,12 @@ a.social:hover {
     background-color: hsl(342, 42%, 96%);
     box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%);
 }
+
+@media screen and (max-width: 400px) {
+    :root {
+        font-size: 14px;
+    }
+    body {
+        padding: 2rem;
+    }
+}
