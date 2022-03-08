@@ -20,7 +20,7 @@ body {
     padding: 4rem;
     display: grid;
     place-items: center;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
 }
 
