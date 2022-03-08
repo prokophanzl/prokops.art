@@ -12,7 +12,11 @@
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
-    margin: .75em 0 0 0;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0.75em;
 }
 
 body {
@@ -22,6 +26,27 @@ body {
     place-items: center;
     min-height: 100vh;
     text-align: center;
+}
+
+.announcement-container {
+    background-color: hsl(342, 42%, 95%);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    padding: 1em;
+    margin-top: 1.25em;
+    border-radius: 8px;
+    border: 2px solid hsl(342, 92%, 81%);
+}
+
+.announcement-container > h1:first-child {
+    margin-top: .5em;
+}
+
+.announcement-container > h2 {
+    color: #596475;
+}
+
+.announcement-container > p {
+    font-size: 1.125em;
 }
 
 .main-container {
