@@ -52,3 +52,38 @@ p {
 img.logo {
     width: 6rem;
 }
+
+.alert-container {
+    background-color: hsl(342, 42%, 95%);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    padding: 1em;
+    margin-top: 1.25em;
+    border-radius: 8px;
+    border: 2px solid hsl(342, 92%, 81%);
+}
+
+.alert-container > h1:first-child {
+    margin-top: .5em;
+}
+
+.alert-container > h2 {
+    color: #596475;
+}
+
+a.button {
+    display: block;
+    margin-top: 1.25rem;
+    background-color: hsl(342, 42%, 95%);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 8px;
+    font-size: 1.25rem;
+    padding: 1em;
+    text-decoration: none;
+    color: #1F2232;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+a.button:hover {
+    background-color: hsl(342, 42%, 96%);
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%);
+}
