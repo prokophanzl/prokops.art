@@ -37,6 +37,10 @@ h1 {
     margin-top: 0.75em;
 }
 
+p {
+    font-size: 1.125em;
+}
+
 .main-container {
     padding: 2rem;
     width: clamp(0px, 500px, 100%);
