@@ -28,27 +28,6 @@ body {
     text-align: center;
 }
 
-.announcement-container {
-    background-color: hsl(342, 42%, 95%);
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-    padding: 1em;
-    margin-top: 1.25em;
-    border-radius: 8px;
-    border: 2px solid hsl(342, 92%, 81%);
-}
-
-.announcement-container > h1:first-child {
-    margin-top: .5em;
-}
-
-.announcement-container > h2 {
-    color: #596475;
-}
-
-.announcement-container > p {
-    font-size: 1.125em;
-}
-
 .main-container {
     padding: 2rem;
     width: clamp(0px, 500px, 100%);
@@ -59,6 +38,27 @@ body {
 
 img.logo {
     width: 6rem;
+}
+
+.alert-container {
+    background-color: hsl(342, 42%, 95%);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    padding: 1em;
+    margin-top: 1.25em;
+    border-radius: 8px;
+    border: 2px solid hsl(342, 92%, 81%);
+}
+
+.alert-container > h1:first-child {
+    margin-top: .5em;
+}
+
+.alert-container > h2 {
+    color: #596475;
+}
+
+.alert-container > p {
+    font-size: 1.125em;
 }
 
 a.social {
