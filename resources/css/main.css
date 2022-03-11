@@ -41,6 +41,10 @@ p {
     font-size: 1.125em;
 }
 
+a[href] {
+    color: #596475;
+}
+
 .main-container {
     padding: 2rem;
     width: clamp(0px, 500px, 100%);
