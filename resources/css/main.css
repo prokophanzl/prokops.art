@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "Prokop Hand";
+    src: url('//2ttf.com/webfont/Vb3CFHl3sc/webfont.ttf') format('truetype');
+}
+
 :root {
-    --fonts: "Work Sans", sans-serif;
+    --fonts: "Prokop Hand", "Work Sans", sans-serif;
 
 	background-color: #1F2232;
 	color: #1F2232;
@@ -64,6 +69,7 @@ img.logo {
     margin-top: 1.25em;
     border-radius: 8px;
     border: 2px solid hsl(342, 92%, 81%);
+    font-family: "Work Sans";
 }
 
 .alert-container > h1:first-child {
