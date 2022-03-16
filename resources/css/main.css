@@ -4,7 +4,7 @@
 }
 
 :root {
-    --fonts: "Prokop Hand", "Work Sans", sans-serif;
+    --fonts: "Work Sans", sans-serif;
 
 	background-color: #1F2232;
 	color: #1F2232;
@@ -58,6 +58,10 @@ a[href] {
     background-color: #FDE8E9;
 }
 
+.main-container > h1 {
+    font-family: "Prokop Hand";
+}
+
 img.logo {
     width: 6rem;
 }
@@ -69,7 +73,6 @@ img.logo {
     margin-top: 1.25em;
     border-radius: 8px;
     border: 2px solid hsl(342, 92%, 81%);
-    font-family: "Work Sans";
 }
 
 .alert-container > h1:first-child {
