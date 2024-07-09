@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+
+#for all requests to prokops.art
+RewriteCond %{HTTP_HOST} ^www\.prokops\.art$
+#redirect them to fergyandfriends.com
+RewriteRule (.*) http://www.fergyandfriends.com/$1 [R=301,L]
